@@ -2,8 +2,8 @@
 """
 pimc_ho.py
 ----------
-Advanced Path Integral Monte Carlo (PIMC) for the 1D Quantum Harmonic Oscillator
-with multiple upgrades:
+Path Integral Monte Carlo (PIMC) for the 1D Quantum Harmonic Oscillator
+
 
 1) Multiple temperatures (loop over beta = 1/(k_B * T)).
 2) Parallelization using Python's multiprocessing (one process per beta).
