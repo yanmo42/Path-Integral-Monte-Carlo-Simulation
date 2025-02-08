@@ -40,16 +40,12 @@ pip install numpy matplotlib
    ```
 
 This will:
-   - Run multiple simulations at different \(\beta\) values in parallel.
-   - Display plots for \(\langle x^2 \rangle\) vs. \(\beta\), \(\langle E \rangle\) vs. \(\beta\), and the correlation function at the lowest temperature.
+   - Run multiple simulations at different (β) values in parallel.
+   - Display plots for ⟨x²⟩ vs. (β), ⟨E⟩ vs. (β), and the correlation function at the lowest temperature.
    - Print a summary of results to the terminal.
 
 3. **Customize** parameters:
    - In `pimc_ho.py`, adjust `N`, `n_sweeps`, `step_size`, `thermal_sweeps`, or the list of `betas` as needed (see `worker_run` and the `main()` function).
-
----
-
-
 
 ---
 
