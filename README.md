@@ -49,13 +49,16 @@ This will:
 
 ---
 
-## Interpreting Results
 
-- For the 1D HO at **low temperature** (\(\beta \to \infty\)), we expect:
-  - \(\langle x^2 \rangle \approx 0.5\) in the ground state.
-  - \(\langle E \rangle \approx 0.5\), the ground-state energy.
-
-- At **higher temperature** (\(\beta\) small), excited states contribute more, increasing \(\langle x^2 \rangle\) and \(\langle E \rangle\).
 
 ---
+
+
+## Interpreting Results
+
+- For the 1D HO at **low temperature** (β → ∞), we expect:
+  - ⟨x²⟩ ≈ 0.5 in the ground state.
+  - ⟨E⟩ ≈ 0.5, the ground-state energy.
+
+- At **higher temperature** (small β), excited states contribute more, increasing ⟨x²⟩ and ⟨E⟩.
 
