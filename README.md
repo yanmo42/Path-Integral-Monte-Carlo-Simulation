@@ -30,7 +30,7 @@ pip install numpy matplotlib
 
 1. **Clone** or download this repository:
    ```bash
-   git clone https://github.com/<your-username>/pimc-quantum-harmonic-oscillator.git
+   git clone https://github.com/yanmo42/Path-Integral-Monte-Carlo-Simulation
    cd pimc-quantum-harmonic-oscillator
    ```
    
