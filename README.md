@@ -32,11 +32,12 @@ pip install numpy matplotlib
    ```bash
    git clone https://github.com/<your-username>/pimc-quantum-harmonic-oscillator.git
    cd pimc-quantum-harmonic-oscillator
-
+   ```
+   
 2. **Run** the simulation:
    ```bash
    python pimc_ho.py
-
+   ```
 
 This will:
    - Run multiple simulations at different \(\beta\) values in parallel.
