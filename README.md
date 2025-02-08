@@ -2,7 +2,7 @@
 
 This repository contains a Path Integral Monte Carlo (PIMC) simulation in Python for the **1D quantum harmonic oscillator** with several advanced features:
 
-1. **Multiple temperatures** (by varying \(\beta = \tfrac{1}{k_{B}\,T}\)).
+1. **Multiple temperatures** (by varying $\beta$ = $\tfrac{1}{k_{B}\,T}\)$).
 2. **Parallelization** with Python's `multiprocessing`.
 3. **Measurement of total energy** ($\langle E \rangle$) and ($\langle x^2 \rangle$).
 4. **Imaginary-time correlation function** ($C(k) = \langle x_i \, x_{i+k}\rangle$).
