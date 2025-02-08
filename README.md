@@ -24,7 +24,7 @@ This repository contains a Path Integral Monte Carlo (PIMC) simulation in Python
 Install dependencies (e.g., with `pip`):
 ```bash
 pip install numpy matplotlib
-
+```
 
 ## Usage
 
