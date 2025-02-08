@@ -24,3 +24,37 @@ This repository contains a Path Integral Monte Carlo (PIMC) simulation in Python
 Install dependencies (e.g., with `pip`):
 ```bash
 pip install numpy matplotlib
+
+
+## Usage
+
+1. **Clone** or download this repository:
+   ```bash
+   git clone https://github.com/<your-username>/pimc-quantum-harmonic-oscillator.git
+   cd pimc-quantum-harmonic-oscillator
+
+2. **Run** the simulation:
+   ```bash
+   python pimc_ho.py
+
+
+This will:
+   - Run multiple simulations at different \(\beta\) values in parallel.
+   - Display plots for \(\langle x^2 \rangle\) vs. \(\beta\), \(\langle E \rangle\) vs. \(\beta\), and the correlation function at the lowest temperature.
+   - Print a summary of results to the terminal.
+
+3. **Customize** parameters:
+   - In `pimc_ho.py`, adjust `N`, `n_sweeps`, `step_size`, `thermal_sweeps`, or the list of `betas` as needed (see `worker_run` and the `main()` function).
+
+---
+
+## Interpreting Results
+
+- For the 1D HO at **low temperature** (\(\beta \to \infty\)), we expect:
+  - \(\langle x^2 \rangle \approx 0.5\) in the ground state.
+  - \(\langle E \rangle \approx 0.5\), the ground-state energy.
+
+- At **higher temperature** (\(\beta\) small), excited states contribute more, increasing \(\langle x^2 \rangle\) and \(\langle E \rangle\).
+
+---
+
